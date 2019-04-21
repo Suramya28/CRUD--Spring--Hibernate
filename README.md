@@ -7,7 +7,7 @@
 5. Create DAO components - @Repository
 6. Create Service components - @Service
 7. Create Controller component - @Controller
- - be sure to put BindingResult immediately after @ModelAttribute or else you will got issues
+ - be sure to put BindingResult immediately after @ModelAttribute or else you will get issues
 8. Create the View components - JSPs
 9. Configurations
 - jdbc.properties
