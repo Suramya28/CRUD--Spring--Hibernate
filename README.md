@@ -1,0 +1,18 @@
+# Add, Edit, Delete, Search using Spring, Hibernate
+
+1. Setup a Dynamic Web project and convert it to maven project
+2. Add the dependencies - be sure to clean install in maven to put your needed jars in the project so you won't have library issue while coding
+3. Setup the database
+4. Create model class - add JPA annotations
+5. Create DAO components - @Repository
+6. Create Service components - @Service
+7. Create Controller component - @Controller
+ - be sure to put BindingResult immediately after @ModelAttribute or else you will got issues
+8. Create the View components - JSPs
+9. Configurations
+- jdbc.properties
+- spring-servlet.xml
+- log4j.xml
+- hibernate.cfg.xml
+- finally web.xml
+10. Clean compile
